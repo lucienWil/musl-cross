@@ -21,8 +21,8 @@ CC_BASE_PREFIX=/opt/cross
 #GCC_CONFFLAGS="--with-arch=armv7-a --with-float=softfp"
 
 MAKEFLAGS=-j8
-MUSL_VERSION=1.1.23
-MUSL_GIT=yes
+MUSL_VERSION=1.1.21
+#MUSL_GIT=yes
 
 # Enable this to build the bootstrap gcc (thrown away) without optimization, to reduce build time
 GCC_STAGE1_NOOPT=1
